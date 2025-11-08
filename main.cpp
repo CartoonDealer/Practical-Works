@@ -55,7 +55,6 @@ void convertToBits(int num, bool isFloat = false) {
 
 		cout << "\033[37m";
 	}
-
 	_getch();
 }
 
@@ -290,7 +289,6 @@ int main() {
 		cin >> imputNum;
 
 		switch (imputNum) {
-
 		case 0:
 			return 0;
 			break;
@@ -336,7 +334,7 @@ int main() {
 			makeInfitiny();
 			break;
 		}
-
 	}
 }
+
 
